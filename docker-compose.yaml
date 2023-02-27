@@ -1,6 +1,29 @@
 version: "3.7"
 services:
 
+  hertz-client:
+    build: ./hertz/client
+    container_name: hertz-client
+
+  hertz-server:
+    build: ./hertz/server
+    container_name: hertz-server
+    ports:
+      - "8888:8888"
+
+  multiple-server:
+    build: ./hertz/multiple_service
+    container_name: multiple-server
+    ports:
+      - "8081:8081"
+      - "8080:8080"
+
+  kitex-server:
+    build: ./kitex/server
+    container_name: kitex-server
+    ports:
+      - "8181:8181"
+
 #  # Collector
   otel-collector:
     image: otel/opentelemetry-collector-contrib-dev:latest
