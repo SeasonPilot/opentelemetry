@@ -7,7 +7,7 @@ COPY . .
 
 ENV GOPROXY="https://goproxy.cn"
 # Build
-RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GO111MODULE=on go build -mod=vendor -o app
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GO111MODULE=on go build  -o app
 
 
 FROM alpine
