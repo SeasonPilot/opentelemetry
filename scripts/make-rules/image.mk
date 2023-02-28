@@ -4,7 +4,7 @@
 
 DOCKER := docker
 
-REGISTRY_PREFIX ?=registry-qa-test.vecps.com/qa
+REGISTRY_PREFIX ?=docker.io
 SERVICE_PREFIX ?=opentelemetry
 
 # Determine images names by stripping out the dir names
