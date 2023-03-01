@@ -1,4 +1,4 @@
-module code.byted.org/zhaoweichen.pilot/kitex-server
+module github.com/SeasonPilot/opentelemetry/kitex-server
 
 go 1.19
 
