@@ -1,4 +1,4 @@
-module code.byted.org/zhaoweichen.pilot/client-server
+module github.com/SeasonPilot/opentelemetry/client-server
 
 go 1.16
 

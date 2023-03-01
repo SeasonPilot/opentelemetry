@@ -1,4 +1,4 @@
-module code.byted.org/zhaoweichen.pilot/hertz-server
+module github.com/SeasonPilot/opentelemetry/hertz-server
 
 go 1.19
 
